@@ -1,4 +1,7 @@
 .card {
     background: lightcyan;
-    
+    padding: 50px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }

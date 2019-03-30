@@ -6,11 +6,18 @@ import 'tachyons';
 import CommonQuestions from '../CommonQuestionsComponent/CommonQuestions';
 
 class App extends Component {
+  createPost() {
+
+  }
+
   render() {
     return (
       <div>
         <NavBar />
         <SearchBar />
+        <div className='create-post-button'>
+          <button onClick={this.createPost}>Create New Thread</button>
+        </div>
         <CommonQuestions />
       </div>
     );

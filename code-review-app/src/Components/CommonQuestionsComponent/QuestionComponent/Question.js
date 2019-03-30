@@ -12,6 +12,7 @@ class Question extends Component {
             <div className='card bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
                 <h2 className='tc'>{this.props.name}</h2>
                 <p>{this.props.codesnippet}</p>
+                <p>Question: {this.props.question}</p>
             </div>
         );
     }
