@@ -6,7 +6,7 @@ const SearchBar = () => {
         <input 
         type='search' 
         placeholder='Search Common Questions'
-        className='tc searchbar pa3 ba b--red bg-lightest-blue SearchBar' />
+        className='tc searchbar pa3 ba  SearchBar' />
     );
 }
 

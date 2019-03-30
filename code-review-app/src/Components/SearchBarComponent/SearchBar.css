@@ -1,5 +1,5 @@
 .SearchBar, input[type=search] {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     margin: auto;
     margin-top: 30px;
     display: block;
